@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YIgZTmxpPkUMDyz9XwUyy4vaATp/kt4+y1FvIeX35E2vkgHA2yTQM7vREil/8b9b+LGPOSGDc9Eadk9jj9+Lgw==",
+  "dgSpecHash": "5ncNGYd4YRdxGNqTYHUQWSY8DpZ3uCvx6FiAqZFbZe2duzYmBSMmrdfJMWMXVw1aT/l1FD7CyHWJxKCQTwctCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\017954631\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

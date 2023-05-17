@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Presentation
-build_property.ProjectDir = C:\Users\017954631\Documents\TemplateNet7Api\DemoToDoProject\Presentation\
+build_property.ProjectDir = C:\Users\017954631\Documents\TemplateNet7Api\src\Presentation\

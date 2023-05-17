@@ -62,11 +62,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\017954631\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Presentation\\obj\\",
+      "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\017954631\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\017954631\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\DemoToDoProject\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\017954631\\AppData\\Roaming\\NuGet\\NuGet.Config",
