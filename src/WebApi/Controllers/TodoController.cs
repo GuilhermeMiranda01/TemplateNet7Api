@@ -16,12 +16,12 @@ namespace WebApi.Controllers
             _mediator = mediator;
         }
 
-        //[HttpGet]
-        //public async Task<List<TodoDTO>> Get()
-        //{
-        //    return await _mediator.Send(new GetTodosQuery());
-        //}
-        
+        [HttpGet]
+        public async Task<List<GetTodosDTO>> Get()
+        {
+            return await _mediator.Send(new GetTodosQuery());
+        }
+
         //[HttpPost]
         //[ProducesResponseType(201)]
         //[ProducesResponseType(400)]

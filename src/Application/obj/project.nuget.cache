@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eL/Sz8sBzX3sy55ywlXvLZZ8oPmj3c7a/PPFgMrT5fYbdA/Gsxmmt4ozfpEEvd5Yhq/IhESx5m+VrNRNqU9pw==",
+  "dgSpecHash": "vAhs+Taah5ytLnsapJW295T7K+DXvjhuvzq4yycOdGtguN9xRYdqVdYoIEyIfm5K8Bsrh3luwghRZ2i8oW+c4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\017954631\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\017954631\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
