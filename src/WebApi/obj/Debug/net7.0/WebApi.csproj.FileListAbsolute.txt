@@ -34,10 +34,8 @@ C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Swashbu
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Application.dll
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Domain.dll
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Infrastructure.dll
-C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Presentation.dll
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Application.pdb
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Infrastructure.pdb
-C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Presentation.pdb
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Domain.pdb
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
@@ -196,3 +194,4 @@ C:\Users\017954631\Documents\teste\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\s
 C:\Users\017954631\Documents\teste\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
 C:\Users\017954631\Documents\teste\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\Users\017954631\Documents\teste\TemplateNet7Api\src\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\017954631\Documents\TemplateNet7Api\src\WebApi\bin\Debug\net7.0\Hellang.Middleware.ProblemDetails.dll

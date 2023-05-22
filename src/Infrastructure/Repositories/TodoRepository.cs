@@ -14,28 +14,31 @@ namespace Infrastructure.Repositories
         }
         public async Task<List<Todo>> GetTodos()
         {
-            return await _context.Set<Todo>().ToListAsync();
+            return await _context.Set<Todo>().AsNoTracking().ToListAsync();
         }
-        public Task DeleteTodo(int id)
+        public async Task DeleteTodo(int id)
         {
-            throw new NotImplementedException();
+            var todo = await GetTodo(id);
+            _context.Set<Todo>().Remove(todo);
+            await _context.SaveChangesAsync();
         }
 
-        public Task<Todo> GetTodo(int id)
+        public async Task<Todo> GetTodo(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Set<Todo>().AsNoTracking().FirstOrDefaultAsync(t => t.Id == id);
         }
-
 
         public async Task InsertTodo(Todo todo)
         {
             await _context.Set<Todo>().AddAsync(todo);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public Task UpdateTodo()
+        public async Task UpdateTodo(Todo todo)
         {
-            throw new NotImplementedException();
+            _context.Set<Todo>().Update(todo);
+            _context.Entry(todo).Property(x => x.Created).IsModified = false;
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -3484,11 +3484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\017954631\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\017954631\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3505,8 +3505,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj"
             }
           }
         }

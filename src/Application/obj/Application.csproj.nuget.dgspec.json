@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\Application.csproj": {}
+    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\Application.csproj": {
+    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\017954631\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Application\\obj\\",
+        "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\017954631\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -56,9 +56,21 @@
               "target": "Package",
               "version": "[11.5.2, )"
             },
+            "Hellang.Middleware.ProblemDetails": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             }
           },
           "imports": [
@@ -81,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\017954631\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\017954631\\AppData\\Roaming\\NuGet\\NuGet.Config",

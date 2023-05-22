@@ -1,10 +1,8 @@
 using Application;
-using Domain.Interfaces;
+using Application.Middleware;
 using Infrastructure;
 using Infrastructure.Context;
-using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Presentation;
 using Serilog;
 
 
@@ -16,9 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TodoContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("default")));
 builder.Services.
     AddApplication().
-    AddInfrastructure().
-    AddPresentation();
-builder.Services.AddScoped<ITodoRepository, TodoRepository>();
+    AddInfrastructure();
 
 
 builder.Host.UseSerilog((context, configuration) =>
@@ -32,6 +28,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();

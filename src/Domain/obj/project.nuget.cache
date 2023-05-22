@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FOqVfHuO8Zi3SirwrcC6PDidxenr+Dj1ANdKEkwLpw6p8PKxli3M9VO0JSqfCbL3NiXr6iMtdsIXki2gsBgZQg==",
+  "dgSpecHash": "HcOK/LdDWDHKRMsbNoN227vXVknLFi2+nv2leRPp4Xs1wmTc9d6yr7OCRIiRAyfXgl2l4t4uAt/0jbDONfSaxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\017954631\\Documents\\teste\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\017954631\\Documents\\TemplateNet7Api\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

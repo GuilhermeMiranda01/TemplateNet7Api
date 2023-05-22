@@ -1,4 +1,5 @@
 ﻿using FluentValidation.Results;
+using System.Net.Http.Headers;
 
 namespace Application.Exceptions
 {
@@ -11,13 +12,9 @@ namespace Application.Exceptions
         
         public BadRequestException(string message, ValidationResult validationResult) : base(message)
         {
-            Errors = new();
-            foreach(var error in validationResult.Errors)
-            {
-                Errors.Add(error.ErrorMessage);
-            }
+            Errors = validationResult.ToDictionary();
         }
 
-        public List<string> Errors { get; set; }
+        public IDictionary<string, string[]> Errors { get; set; }
     }
 }

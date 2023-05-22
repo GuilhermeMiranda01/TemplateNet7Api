@@ -6,7 +6,7 @@ namespace Domain.Interfaces
     {
         Task<List<Todo>> GetTodos();
         Task<Todo> GetTodo(int id);
-        Task UpdateTodo();
+        Task UpdateTodo(Todo todo);
         Task DeleteTodo(int id);
         Task InsertTodo(Todo todo);
     }
